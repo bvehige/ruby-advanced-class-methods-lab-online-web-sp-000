@@ -54,6 +54,9 @@ class Song
   end
   
   def self.new_from_filename(filename_mp3)
+    file1 = filename_mp3.split" - "
+    file2 = file1[1].chomp(".mp3")
+    
   binding.pry
   
   
