@@ -57,9 +57,9 @@ class Song
     file1 = filename_mp3.split" - "
     file2 = file1[1].chomp(".mp3")
     song = self.new
-    
-  binding.pry
-  
+    file2 = song.name
+    file1 = artist_name
+    song
   
   end
   
