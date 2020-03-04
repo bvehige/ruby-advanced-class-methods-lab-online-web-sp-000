@@ -57,8 +57,8 @@ class Song
     file1 = filename_mp3.split" - "
     file2 = file1[1].chomp(".mp3")
     song = self.new
-    file2 = song.name
-    file1 = artist_name
+    song.name = file2[0]
+    song.artist_name = file1[0]
     song
   
   end
